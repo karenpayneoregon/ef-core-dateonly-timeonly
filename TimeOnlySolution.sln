@@ -18,7 +18,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorsConsoleApp", "Visit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityCoreTimeDateUtilities", "EntityCoreTimeDateutilities\EntityCoreTimeDateUtilities.csproj", "{BD7F2283-7011-4149-B366-F17B7A0C9813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithJsonApp", "WorkingWithJsonApp\WorkingWithJsonApp.csproj", "{8D3B8108-D95B-441F-BB68-8682D2399984}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithJsonApp", "WorkingWithJsonApp\WorkingWithJsonApp.csproj", "{8D3B8108-D95B-441F-BB68-8682D2399984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeClassLibrary", "TimeClassLibrary\TimeClassLibrary.csproj", "{A58400A3-18E5-4C6C-B383-696D59AE7A9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeHelpersConsoleApp", "TimeHelpersConsoleApp\TimeHelpersConsoleApp.csproj", "{7C22A3EA-CA16-49C6-B764-089726B1335D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +46,14 @@ Global
 		{8D3B8108-D95B-441F-BB68-8682D2399984}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D3B8108-D95B-441F-BB68-8682D2399984}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D3B8108-D95B-441F-BB68-8682D2399984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A58400A3-18E5-4C6C-B383-696D59AE7A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A58400A3-18E5-4C6C-B383-696D59AE7A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A58400A3-18E5-4C6C-B383-696D59AE7A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A58400A3-18E5-4C6C-B383-696D59AE7A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C22A3EA-CA16-49C6-B764-089726B1335D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C22A3EA-CA16-49C6-B764-089726B1335D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C22A3EA-CA16-49C6-B764-089726B1335D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C22A3EA-CA16-49C6-B764-089726B1335D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +61,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EEE9D570-3178-43AF-8D29-68BD1B4ABD11} = {93D6EFA0-BD23-409F-820A-398288D80663}
 		{BD7F2283-7011-4149-B366-F17B7A0C9813} = {93D6EFA0-BD23-409F-820A-398288D80663}
+		{A58400A3-18E5-4C6C-B383-696D59AE7A9A} = {93D6EFA0-BD23-409F-820A-398288D80663}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76D7D979-20B6-48F8-9876-0ECB099260E0}
