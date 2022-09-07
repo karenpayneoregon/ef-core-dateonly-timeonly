@@ -26,7 +26,8 @@ public partial class VisitorContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            optionsBuilder.UseSqlServer(ConfigurationHelper.ConnectionString());
+            optionsBuilder.UseSqlServer(ConfigurationHelper.ConnectionString()).
+                UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
         }
     }
 

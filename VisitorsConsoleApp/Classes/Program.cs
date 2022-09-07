@@ -17,7 +17,7 @@ namespace VisitorsConsoleApp
             new Table()
                 .Border(TableBorder.Square)
                 .BorderColor(Color.Cornsilk1)
-                .LeftAligned()
+                .Centered()
                 .AddColumn(new TableColumn("First"))
                 .AddColumn(new TableColumn("Last"))
                 .AddColumn(new TableColumn("Visited"))
