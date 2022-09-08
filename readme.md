@@ -1,6 +1,8 @@
 # EF Core: Working with TimeOnly
 
-In this article learn how to use TimeOnly along with DateOnly (which I wrote another [article](https://github.com/karenpayneoregon/dateonly-primer) on recently) with Entity Framework Core 6 and higher.
+A `TimeOnly` is ideal for scenarios such as recurring meeting times, daily alarm clock times, or the times that a business opens and closes each day of the week. Because a `TimeOnly` isn’t associated with any particular date, it is best visualized as a circular analog clock that might hang on your wall (albeit a 24-hour clock, not a 12-hour clock). 
+
+In this article learn how to use `TimeOnly` along with `DateOnly` (which I wrote another [article](https://github.com/karenpayneoregon/dateonly-primer) on recently) with Entity Framework Core 6 and higher.
 
 In the prior article a person model was used focusing on DateOnly.
 
