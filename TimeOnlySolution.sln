@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class projects", "Class projects", "{93D6EFA0-BD23-409F-820A-398288D80663}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class projects dotnet core 6", "Class projects dotnet core 6", "{93D6EFA0-BD23-409F-820A-398288D80663}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorsLibrary", "VisitorsLibrary\VisitorsLibrary.csproj", "{EEE9D570-3178-43AF-8D29-68BD1B4ABD11}"
 EndProject
@@ -20,9 +20,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityCoreTimeDateUtilities
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithJsonApp", "WorkingWithJsonApp\WorkingWithJsonApp.csproj", "{8D3B8108-D95B-441F-BB68-8682D2399984}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeClassLibrary", "TimeClassLibrary\TimeClassLibrary.csproj", "{A58400A3-18E5-4C6C-B383-696D59AE7A9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeClassLibrary", "TimeClassLibrary\TimeClassLibrary.csproj", "{A58400A3-18E5-4C6C-B383-696D59AE7A9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeHelpersConsoleApp", "TimeHelpersConsoleApp\TimeHelpersConsoleApp.csproj", "{7C22A3EA-CA16-49C6-B764-089726B1335D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeHelpersConsoleApp", "TimeHelpersConsoleApp\TimeHelpersConsoleApp.csproj", "{7C22A3EA-CA16-49C6-B764-089726B1335D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console project dotnet core 6", "Console project dotnet core 6", "{FFC24A2A-C504-4DAA-84E4-4BA3301006AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console projects dotnet core 7", "Console projects dotnet core 7", "{951A6E44-378F-4A1C-9F81-10A35635D87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOnlyCore7App", "TimeOnlyCore7App\TimeOnlyCore7App.csproj", "{AC0D4474-5B03-47AB-AEF1-23ABA9592382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,14 +60,22 @@ Global
 		{7C22A3EA-CA16-49C6-B764-089726B1335D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C22A3EA-CA16-49C6-B764-089726B1335D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C22A3EA-CA16-49C6-B764-089726B1335D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC0D4474-5B03-47AB-AEF1-23ABA9592382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC0D4474-5B03-47AB-AEF1-23ABA9592382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC0D4474-5B03-47AB-AEF1-23ABA9592382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC0D4474-5B03-47AB-AEF1-23ABA9592382}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{EEE9D570-3178-43AF-8D29-68BD1B4ABD11} = {93D6EFA0-BD23-409F-820A-398288D80663}
+		{D6618E08-AD52-4F0F-8ACA-989149668B18} = {FFC24A2A-C504-4DAA-84E4-4BA3301006AE}
 		{BD7F2283-7011-4149-B366-F17B7A0C9813} = {93D6EFA0-BD23-409F-820A-398288D80663}
+		{8D3B8108-D95B-441F-BB68-8682D2399984} = {FFC24A2A-C504-4DAA-84E4-4BA3301006AE}
 		{A58400A3-18E5-4C6C-B383-696D59AE7A9A} = {93D6EFA0-BD23-409F-820A-398288D80663}
+		{7C22A3EA-CA16-49C6-B764-089726B1335D} = {FFC24A2A-C504-4DAA-84E4-4BA3301006AE}
+		{AC0D4474-5B03-47AB-AEF1-23ABA9592382} = {951A6E44-378F-4A1C-9F81-10A35635D87F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {76D7D979-20B6-48F8-9876-0ECB099260E0}
