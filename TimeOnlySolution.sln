@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		readme.md = readme.md
 		readmeSql.md = readmeSql.md
+		scripts.sql = scripts.sql
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VisitorsConsoleApp", "VisitorsConsoleApp\VisitorsConsoleApp.csproj", "{D6618E08-AD52-4F0F-8ACA-989149668B18}"
@@ -28,7 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console project dotnet core
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Console projects dotnet core 7", "Console projects dotnet core 7", "{951A6E44-378F-4A1C-9F81-10A35635D87F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeOnlyCore7App", "TimeOnlyCore7App\TimeOnlyCore7App.csproj", "{AC0D4474-5B03-47AB-AEF1-23ABA9592382}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeOnlyCore7App", "TimeOnlyCore7App\TimeOnlyCore7App.csproj", "{AC0D4474-5B03-47AB-AEF1-23ABA9592382}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

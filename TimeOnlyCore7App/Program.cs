@@ -1,8 +1,10 @@
-﻿namespace TimeOnlyCore7App
+﻿using TimeOnlyCore7App.Classes;
+
+namespace TimeOnlyCore7App
 {
     internal partial class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
 
             TimeOnly timeOnly1 = new TimeOnly();
@@ -21,6 +23,9 @@
 
             AnsiConsole.MarkupLine($"As [b]TimeSpan[/] [cyan]{ts.ToString()}[/]");
             AnsiConsole.MarkupLine($"As [b]TimeSpan[/] [cyan]{ts:g}[/]");
+            Console.WriteLine();
+
+            await DataOperations.Read();
             Console.ReadLine();
         }
     }

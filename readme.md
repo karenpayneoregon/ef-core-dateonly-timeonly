@@ -273,6 +273,12 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 }
 ```
 
+# .NET Core 7
+
+11/2022 the project TimeOnlyCore7App demonstrations
+
+- `TimeOnly` with microseconds
+- Microsoft.Data.SqlClient support for `DateOnly` and `TimeOnly` with several language exensions I created.
 
 # Summary
 
