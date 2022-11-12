@@ -4,6 +4,10 @@ With .NET Core 7, TimeOnly added [microseconds](https://learn.microsoft.com/en-u
 
 # Working with or Microsoft.Data.SqlClient DataReader
 
+Microsoft.Data.SqlClient 5.1.0-preview2.22314.2 [released](https://github.com/dotnet/SqlClient/blob/main/release-notes/5.1/5.1.0-preview2.md) 10 November 2022
+
+Added support for `DateOnly` and `TimeOnly` for `SqlParameter` value and `GetFieldValue`
+
 ![Screen](assets/screen.png)
 
 <br>
