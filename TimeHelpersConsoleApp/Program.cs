@@ -14,7 +14,7 @@ namespace TimeHelpersConsoleApp
             //Console.WriteLine(timeOnly1.IsLessThan(timeOnly2));
             //Console.WriteLine(timeOnly2.IsLessThan(timeOnly1));
             //Duration();
-            //GreaterThan_LesserThan();
+            GreaterThan_LesserThan();
             //IsBetween();
 
             Console.ReadLine();
@@ -22,10 +22,11 @@ namespace TimeHelpersConsoleApp
 
         /// <summary>
         /// Example to get duration between a end and start TimeOnly
+        /// Both results are the same.
         /// </summary>
         private static void Duration()
         {
-            TimeOnly endTime = new(14, 0, 0);
+            TimeOnly endTime = new(16, 0, 0);
             TimeOnly startTime = new(7, 0, 0);
 
 

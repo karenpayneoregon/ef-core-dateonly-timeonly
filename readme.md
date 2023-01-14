@@ -276,6 +276,7 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 # .NET Core 7
 
 11/2022 the project TimeOnlyCore7App demonstrations
+01/2023 All projects are now EF Core 7
 
 - `TimeOnly` with microseconds
 - Microsoft.Data.SqlClient support for `DateOnly` and `TimeOnly` with several language exensions I created.
